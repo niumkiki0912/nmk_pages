@@ -1,0 +1,35 @@
+{
+  "name": "nmk-pages",
+  "version": "0.1.0",
+  "description": "gulp脚手架",
+  "keywords": [
+    "nmk-pages",
+    "zce"
+  ],
+  "repository": "zce/nmk-pages",
+  "license": "MIT",
+  "author": "niumkiki0912 <chuxiaimpala@163.com> (https://github.com/niumkiki0912)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
