@@ -11,7 +11,7 @@
   "author": "niumkiki0912 <chuxiaimpala@163.com> (https://github.com/niumkiki0912)",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib", "bin"
   ],
   "scripts": {
     "lint": "standard --fix",
@@ -22,6 +22,7 @@
       "zce"
     ]
   },
+  "bin": "bin/nmk-pages.js",
   "dependencies": {
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.1",
